@@ -23,13 +23,13 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/Bot_mart_support"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/BOT_MART_OFFICIAL")
+            InlineKeyboardButton('👥 Group', url=f"https://t.me/BXSupport"),
+            InlineKeyboardButton('Channel 📢', url=f"https://t.me/BX_Botz")
             ],[
             InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/BOT_MART_OFFICIAL"),
+            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/BX_Botz/31"),
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/Bot.mart")
+            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/BX_Botz")
         ]
     ]
     await m.reply_text(
